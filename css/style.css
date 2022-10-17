@@ -123,7 +123,7 @@ address {
 .page-footer__contact .contact-link {
   padding-top: 9px;
 }
-.order-box {
+.section-main {
   margin: auto;
   background-color: #2f303a;
   text-align: center;
@@ -132,7 +132,7 @@ address {
   background-size: cover;
   max-width: 1600px;
 }
-h1 {
+.section-main__heading {
   margin: 0px;
   padding-top: 200px;
   font-weight: 900;
@@ -142,7 +142,7 @@ h1 {
   color: #fff;
   letter-spacing: 0.06em;
 }
-.order-button {
+.button--section-main {
   padding: 0px;
   margin-top: 30px;
   margin-bottom: 210px;
@@ -200,7 +200,7 @@ section {
   margin: 0px;
   padding-top: 10px;
 }
-.section-header {
+.section__heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -208,14 +208,14 @@ section {
   margin: 0px;
   padding-bottom: 50px;
 }
-.ourwork-box {
+.ourwork {
   display: flex;
   justify-content: space-between;
 }
-.ourwork-card {
+.ourwork__card {
   position: relative;
 }
-.ourwork-describe {
+.ourwork__describe {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -235,17 +235,17 @@ section {
 section.bottom {
   background-color: #f5f4fa;
 }
-.ourteam-box {
+.ourteam {
   display: flex;
   justify-content: space-between;
 }
-.ourteam-card {
+.ourteam__card {
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.teammate-name {
+.ourteam__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -254,7 +254,7 @@ section.bottom {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-.job-title {
+.ourteam__job-title {
   color: var(--grey);
   font-size: 16px;
   line-height: 1.18;
