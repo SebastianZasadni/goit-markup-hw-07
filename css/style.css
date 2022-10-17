@@ -166,23 +166,34 @@ section {
   padding: 94px 0px;
   margin: auto;
 }
-.lorem-box {
+.section-lorem {
   padding-bottom: 0px;
 }
-.lorem-list {
+.section-lorem__list {
   list-style: none;
   display: flex;
   padding: 0px;
   justify-content: space-between;
 }
-.lorem-header {
+.section-lorem__card {
+  width: 270px;
+  height: 120px;
+  border: 0px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-lorem__heading {
   margin: 0px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.lorem-describe {
+.section-lorem__describe {
   color: var(--grey);
   font-size: 14px;
   line-height: 1.71;
@@ -340,17 +351,6 @@ section.bottom {
   stroke: currentColor;
   fill: currentColor;
   text-align: center;
-}
-.lorem-svgcard {
-  width: 270px;
-  height: 120px;
-  border: 0px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
 }
 .ourclient-box {
   display: flex;
