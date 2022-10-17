@@ -235,7 +235,8 @@ section {
 section.bottom {
   background-color: #f5f4fa;
 }
-.ourteam {
+.ourteam,
+.ourclient {
   display: flex;
   justify-content: space-between;
 }
