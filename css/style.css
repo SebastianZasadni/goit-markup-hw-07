@@ -13,21 +13,21 @@ body {
   margin: auto;
   padding: auto;
 }
-header {
+.page-header {
   border-bottom: 1px solid #ececec;
 }
-header .container {
+.page-header .container {
   padding: 24px 0px;
   align-items: center;
   display: flex;
   background-color: #fff;
 }
-footer {
+.page-footer {
   background-color: #2f303a;
   padding: 60px 0px 60px 0px;
   height: 252px;
 }
-footer .container {
+.page-footer .container {
   display: flex;
   gap: 70px;
 }
@@ -40,23 +40,23 @@ footer .container {
   font-size: 26px;
   line-height: 1.19;
 }
-.black {
+.logo__black {
   color: #000;
 }
-.white {
+.logo__white {
   color: #fff;
 }
 
-.nav-list {
+.nav__list {
   list-style: none;
   display: inline-flex;
   margin-left: 47px;
   padding: 0px;
 }
-.nav-item {
+.nav__item {
   margin-left: 46px;
 }
-.nav-link {
+.nav__link {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -66,14 +66,26 @@ footer .container {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:focus,
-.nav-link:hover {
+.nav__link:focus,
+.nav__link:hover {
   text-decoration: none;
   color: var(--light-blue);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.nav__link--mainsite::after,
+.nav__link--portfoliosite::after {
+  display: flex;
+  content: "";
+  color: var(--light-blue);
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  background: var(--light-blue);
+  border-radius: 2px;
+  top: 95.5px;
 }
 .contact-nav {
   margin-left: 400px;
@@ -443,18 +455,6 @@ section.bottom {
   fill: #fff;
   border-radius: 50%;
   background-color: var(--light-blue);
-}
-.mainsite::after,
-.portfoliosite::after {
-  display: flex;
-  content: "";
-  color: var(--light-blue);
-  position: absolute;
-  width: 53px;
-  height: 4px;
-  background: var(--light-blue);
-  border-radius: 2px;
-  top: 95.5px;
 }
 .portfolio-describe {
   position: absolute;
