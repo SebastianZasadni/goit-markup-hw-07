@@ -87,7 +87,7 @@ body {
   border-radius: 2px;
   top: 95.5px;
 }
-.contact-nav {
+.page-header__contact {
   margin-left: 400px;
 }
 .contact-link {
@@ -120,7 +120,7 @@ address {
   padding-bottom: 9px;
   margin: 0px;
 }
-.contact-footer .contact-link {
+.page-footer__contact .contact-link {
   padding-top: 9px;
 }
 .order-box {
