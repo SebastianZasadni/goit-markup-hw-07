@@ -639,9 +639,11 @@ section {
   margin-left: 39px;
   margin-top: 20px;
 }
-.form-fotter {
-  margin: 0;
-  padding: 0;
+.modal__button {
+  margin-top: 40px;
+  margin-left: 124px;
+  margin-bottom: 0px;
+  padding: 10px 76px;
 }
 .icon-check {
   display: inline-block;
@@ -678,6 +680,11 @@ section {
   border: 0px;
   border-radius: 2px;
 }
+.form-fotter {
+  margin: 0;
+  padding: 0;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -688,12 +695,7 @@ section {
   width: 1px !important;
   overflow: hidden;
 }
-.modal-button {
-  margin-top: 40px;
-  margin-left: 124px;
-  margin-bottom: 0px;
-  padding: 10px 76px;
-}
+
 .newsletter-box {
   margin: 0;
   padding: 0;
@@ -716,7 +718,7 @@ section {
   background-color: #2f303a;
   color: rgba(255, 255, 255, 0.6);
 }
-.newsletter-button {
+.newsletter__button {
   margin-top: 30px;
   margin-bottom: 210px;
   margin-left: 12px;
