@@ -431,21 +431,21 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" data-modal-close class="close-btn">
-          <svg class="x-btn">
+        <button type="button" data-modal-close class="modal__close-btn">
+          <svg class="modal__icon-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h3 class="header-modal">Zostaw swoje dane w formularzu poniżej</h3>
-        <form class="form-modal">
-          <label for="user_name" class="modal-label"
+        <h3 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="modal__form">
+          <label for="user_name" class="modal__label"
             >Imię
             <input
               type="text"
               name="username"
               id="user_name"
-              class="input-area" />
-            <svg class="modal-input-icon">
+              class="modal__input" />
+            <svg class="modal__icon-input">
               <use href="./images/icons.svg#icon-user"></use></svg
           ></label>
           <label for="user_phone" class="modal-label"
@@ -455,7 +455,7 @@
               name="userphone"
               id="user_phone"
               class="input-area" />
-            <svg class="modal-input-icon">
+            <svg class="modal__icon-input">
               <use href="./images/icons.svg#icon-phone"></use></svg
           ></label>
           <label for="user_email" class="modal-label"
@@ -465,7 +465,7 @@
               name="useremail"
               id="user_email"
               class="input-area" />
-            <svg class="modal-input-icon">
+            <svg class="modal__icon-input">
               <use href="./images/icons.svg#icon-email"></use></svg
           ></label>
           <label for="user-comment" class="modal-label"

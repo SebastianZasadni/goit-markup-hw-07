@@ -531,11 +531,11 @@ section {
   padding: 40px;
   color: var(--grey);
 }
-.form-modal {
+.modal__form {
   padding: 0;
   margin: 0;
 }
-.close-btn {
+.modal__close-btn {
   position: absolute;
   left: 490px;
   top: 8px;
@@ -546,7 +546,7 @@ section {
   border-radius: 50%;
   cursor: pointer;
 }
-.x-btn {
+.modal__icon-close {
   position: absolute;
   top: 5.5px;
   left: 5.2px;
@@ -557,7 +557,7 @@ section {
   stroke: currentColor;
   fill: #000;
 }
-.modal-label {
+.modal__label {
   font-family: "Roboto";
   font-size: 12px;
   line-height: 1.16;
@@ -565,7 +565,7 @@ section {
   display: block;
   position: relative;
 }
-.header-modal {
+.modal__heading {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 20px;
@@ -573,7 +573,7 @@ section {
   text-align: center;
   color: var(--black);
 }
-.input-area {
+.modal__input {
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -583,11 +583,11 @@ section {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-area:focus-within {
+.modal__input:focus-within {
   border: 1px solid var(--light-blue);
   outline: 0px;
 }
-.modal-input-icon {
+.modal__icon-input {
   position: absolute;
   top: 29px;
   left: 14px;
@@ -600,7 +600,7 @@ section {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-area:focus + .modal-input-icon {
+.modal__input:focus + .modal__icon-input {
   fill: var(--light-blue);
 }
 .comment-area {
