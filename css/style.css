@@ -8,6 +8,9 @@ body {
   color: var(--black);
   position: relative;
 }
+main {
+  position: relative;
+}
 .container {
   width: 1200px;
   margin: auto;
@@ -519,8 +522,8 @@ section {
 .modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  left: 496px;
-  top: 50px;
+  left: 32.5%;
+  top: 10%;
   animation-name: changeScale;
   animation-duration: 2000ms;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
