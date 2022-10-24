@@ -680,10 +680,6 @@ section {
   border: 0px;
   border-radius: 2px;
 }
-.form-fotter {
-  margin: 0;
-  padding: 0;
-}
 
 .visually-hidden {
   position: absolute !important;
@@ -696,11 +692,11 @@ section {
   overflow: hidden;
 }
 
-.newsletter-box {
+.newsletter {
   margin: 0;
   padding: 0;
 }
-.header-newsletter {
+.newsletter__heading {
   color: #fff;
   font-family: "Roboto";
   font-weight: 700;
@@ -709,7 +705,11 @@ section {
   text-transform: uppercase;
   margin: 0;
 }
-.input-news {
+.newsletter__form {
+  margin: 0;
+  padding: 0;
+}
+.newsletter__input {
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -726,7 +726,7 @@ section {
   letter-spacing: 0.06em;
   position: relative;
 }
-.icon-send {
+.newsletter__icon-send {
   position: absolute;
   top: 13px;
   right: 28px;
@@ -737,6 +737,6 @@ section {
   stroke: currentColor;
   fill: currentColor;
 }
-.label-footer {
+.newsletter__label {
   display: flex;
 }
