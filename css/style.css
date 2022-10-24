@@ -691,11 +691,6 @@ section {
   width: 1px !important;
   overflow: hidden;
 }
-
-.newsletter {
-  margin: 0;
-  padding: 0;
-}
 .newsletter__heading {
   color: #fff;
   font-family: "Roboto";
@@ -720,12 +715,11 @@ section {
   color: rgba(255, 255, 255, 0.6);
 }
 .newsletter__button {
-  margin-top: 30px;
-  margin-bottom: 210px;
-  margin-left: 12px;
   padding: 10px 76px 10px 42px;
   letter-spacing: 0.06em;
   position: relative;
+  top: -80px;
+  left: 380px;
 }
 .newsletter__icon-send {
   position: absolute;
