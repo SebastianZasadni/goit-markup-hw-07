@@ -232,7 +232,7 @@ section {
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
-section.bottom {
+.section-bottom {
   background-color: #f5f4fa;
 }
 .ourteam,
@@ -300,7 +300,7 @@ section.bottom {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-list {
+.portfolio-buttons {
   display: flex;
   margin: 0px;
   padding: 0px;
@@ -308,7 +308,7 @@ section.bottom {
   list-style: none;
 }
 
-.portfolio-button {
+.portfolio-buttons__button {
   margin-left: 8px;
   padding: 6px 22px;
   background-color: #f5f4fa;
@@ -321,8 +321,8 @@ section.bottom {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-buttons__button:hover,
+.portfolio-buttons__button:focus {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
