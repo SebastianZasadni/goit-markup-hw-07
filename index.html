@@ -17,74 +17,6 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" data-modal-close class="modal__close-btn">
-          <svg class="modal__icon-close">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <h3 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h3>
-        <form class="modal__form">
-          <label for="user_name" class="modal__label"
-            >Imię
-            <input
-              type="text"
-              name="username"
-              id="user_name"
-              class="modal__input" />
-            <svg class="modal__icon-input">
-              <use href="./images/icons.svg#icon-user"></use></svg
-          ></label>
-          <label for="user_phone" class="modal__label"
-            >Telefon
-            <input
-              type="tel"
-              name="userphone"
-              id="user_phone"
-              class="modal__input" />
-            <svg class="modal__icon-input">
-              <use href="./images/icons.svg#icon-phone"></use></svg
-          ></label>
-          <label for="user_email" class="modal__label"
-            >Email
-            <input
-              type="email"
-              name="useremail"
-              id="user_email"
-              class="modal__input" />
-            <svg class="modal__icon-input">
-              <use href="./images/icons.svg#icon-email"></use></svg
-          ></label>
-          <label for="user-comment" class="modal__label"
-            >Komentarz
-            <textarea
-              name="usercomment"
-              id="user-comment"
-              class="modal__comment"
-              placeholder="Wprowadź tekst"
-            ></textarea>
-          </label>
-          <label for="user-accept" class="modal__user-legacy"
-            >Oświadczam iż akceptuję
-            <a href="" class="modal__checkbox-link">Regulamin</a> i
-            <a href="" class="modal__checkbox-link">Politykę Prywatności.</a>
-            <input
-              type="checkbox"
-              id="user-accept"
-              class="modal__checkbox visually-hidden"
-              name="regulamin"
-              value="accept-reg"
-              nochecked />
-            <svg class="modal__icon-check">
-              <use href="./images/icons.svg#icon-check"></use></svg
-            ><svg class="modal__icon-nocheck">
-              <use href="./images/icons.svg#icon-nocheck"></use></svg
-          ></label>
-          <button type="submit" class="button modal__button">Wyślij</button>
-        </form>
-      </div>
-    </div>
     <header class="page-header">
       <div class="container">
         <a href="" class="logo">Web<span class="logo__black">Studio</span></a>
@@ -498,7 +430,74 @@
         </div>
       </div>
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close class="modal__close-btn">
+          <svg class="modal__icon-close">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="modal__form">
+          <label for="user_name" class="modal__label"
+            >Imię
+            <input
+              type="text"
+              name="username"
+              id="user_name"
+              class="modal__input" />
+            <svg class="modal__icon-input">
+              <use href="./images/icons.svg#icon-user"></use></svg
+          ></label>
+          <label for="user_phone" class="modal__label"
+            >Telefon
+            <input
+              type="tel"
+              name="userphone"
+              id="user_phone"
+              class="modal__input" />
+            <svg class="modal__icon-input">
+              <use href="./images/icons.svg#icon-phone"></use></svg
+          ></label>
+          <label for="user_email" class="modal__label"
+            >Email
+            <input
+              type="email"
+              name="useremail"
+              id="user_email"
+              class="modal__input" />
+            <svg class="modal__icon-input">
+              <use href="./images/icons.svg#icon-email"></use></svg
+          ></label>
+          <label for="user-comment" class="modal__label"
+            >Komentarz
+            <textarea
+              name="usercomment"
+              id="user-comment"
+              class="modal__comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label for="user-accept" class="modal__user-legacy"
+            >Oświadczam iż akceptuję
+            <a href="" class="modal__checkbox-link">Regulamin</a> i
+            <a href="" class="modal__checkbox-link">Politykę Prywatności.</a>
+            <input
+              type="checkbox"
+              id="user-accept"
+              class="modal__checkbox visually-hidden"
+              name="regulamin"
+              value="accept-reg"
+              nochecked />
+            <svg class="modal__icon-check">
+              <use href="./images/icons.svg#icon-check"></use></svg
+            ><svg class="modal__icon-nocheck">
+              <use href="./images/icons.svg#icon-nocheck"></use></svg
+          ></label>
+          <button type="submit" class="button modal__button">Wyślij</button>
+        </form>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
