@@ -672,10 +672,10 @@ section {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-legacy:checked ~ .icon-nocheck {
+.modal__checkbox:checked ~ .icon-nocheck {
   opacity: 0;
 }
-.checkbox-legacy:checked + .icon-check {
+.modal__checkbox:checked + .icon-check {
   opacity: 1;
   border: 0px;
   border-radius: 2px;
