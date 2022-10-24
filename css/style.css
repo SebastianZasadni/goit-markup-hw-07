@@ -645,7 +645,7 @@ section {
   margin-bottom: 0px;
   padding: 10px 76px;
 }
-.icon-check {
+.modal__icon-check {
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
@@ -659,7 +659,7 @@ section {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-nocheck {
+.modal__icon-nocheck {
   position: absolute;
   top: 3px;
   left: -25px;
@@ -672,10 +672,10 @@ section {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__checkbox:checked ~ .icon-nocheck {
+.modal__checkbox:checked ~ .modal__icon-nocheck {
   opacity: 0;
 }
-.modal__checkbox:checked + .icon-check {
+.modal__checkbox:checked + .modal__icon-check {
   opacity: 1;
   border: 0px;
   border-radius: 2px;
