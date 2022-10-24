@@ -455,7 +455,7 @@ section {
   border-radius: 50%;
   background-color: var(--light-blue);
 }
-.join-us {
+.join-us__paragraph {
   font-family: "Roboto";
   color: #fff;
   font-weight: 700;
