@@ -620,17 +620,17 @@ section {
   border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
-.checkbox-link {
+.checkbox {
   text-decoration: underline;
   color: var(--light-blue);
 }
-.checkbox-legacy {
+.modal__checkbox {
   margin-top: 20px;
   margin-left: 5px;
   padding: 0px;
   position: relative;
 }
-.modal-user-legacy {
+.modal__user-legacy {
   display: block;
   font-family: "Roboto";
   font-size: 14px;
