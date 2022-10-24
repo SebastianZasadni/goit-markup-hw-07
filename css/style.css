@@ -397,16 +397,23 @@ section {
 }
 .icon-contact {
   display: inline-block;
-  width: 16px;
-  height: 12px;
+  width: 1em;
+  height: 1em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
 }
+.icon-envelop {
+  width: 16px;
+  height: 12px;
+}
+.icon-mobile {
+  width: 10px;
+  height: 16px;
+}
 .contact-link:hover .icon-contact,
 .contact-link:focus .icon-contact {
   fill: var(--light-blue);
-  margin-right: 10px;
 }
 
 .icon-lorem {
