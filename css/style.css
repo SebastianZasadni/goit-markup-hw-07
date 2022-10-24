@@ -462,15 +462,15 @@ section {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.footersocial-box .socialmedia-list {
+.socialmedia__list--page-footer {
   margin: 0px;
   padding: 0px;
   padding-top: 20px;
 }
-.footersocial-box .socialmedia-list .socialmedia-item {
+.socialmedia__item--page-footer {
   margin-right: 10px;
 }
-.footersocial-box .socialmedia-list .socialmedia-item .social-link {
+.socialmedia__link--page-footer {
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -480,8 +480,8 @@ section {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.footersocial-box .socialmedia-list .socialmedia-item .social-link:hover,
-.footersocial-box .socialmedia-list .socialmedia-item .social-link:focus {
+.socialmedia__link--page-footer:hover,
+.socialmedia__link--page-footer:focus {
   display: inline-block;
   width: 44px;
   height: 44px;
