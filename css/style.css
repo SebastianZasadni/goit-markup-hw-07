@@ -411,8 +411,8 @@ section {
   width: 10px;
   height: 16px;
 }
-.contact-link:hover .icon-contact,
-.contact-link:focus .icon-contact {
+.contact-link:hover .contact-link__icon,
+.contact-link:focus .contact-link__icon {
   fill: var(--light-blue);
 }
 
