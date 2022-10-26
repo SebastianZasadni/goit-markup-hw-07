@@ -341,6 +341,10 @@ address {
   margin: 0px;
 }
 
+.section-ourclient {
+  background-color: #f5f4fa;
+}
+
 .ourclient {
   gap: 30px;
   display: flex;
