@@ -1,3 +1,6 @@
+.newsletter {
+  margin: 0;
+}
 .newsletter__heading {
   color: #fff;
   font-family: "Roboto";
@@ -10,6 +13,7 @@
 .newsletter__form {
   margin: 0;
   padding: 0;
+  height: 150px;
 }
 .newsletter__input {
   margin-top: 20px;
@@ -27,6 +31,7 @@
   position: relative;
   top: -80px;
   left: 380px;
+  margin: 0;
 }
 .newsletter__icon-send {
   position: absolute;

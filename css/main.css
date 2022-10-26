@@ -752,6 +752,10 @@ address {
   border-radius: 2px;
 }
 
+.newsletter {
+  margin: 0;
+}
+
 .newsletter__heading {
   color: #fff;
   font-family: "Roboto";
@@ -765,6 +769,7 @@ address {
 .newsletter__form {
   margin: 0;
   padding: 0;
+  height: 150px;
 }
 
 .newsletter__input {
@@ -784,6 +789,7 @@ address {
   position: relative;
   top: -80px;
   left: 380px;
+  margin: 0;
 }
 
 .newsletter__icon-send {
