@@ -1,0 +1,22 @@
+:root {
+  --light-blue: #2196f3;
+  --black: #212121;
+  --grey: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding: auto;
+}
+
+section {
+  padding: 94px 0px;
+  margin: auto;
+}/*# sourceMappingURL=main.css.map */
