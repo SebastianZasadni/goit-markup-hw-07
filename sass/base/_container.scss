@@ -3,3 +3,13 @@
   margin: auto;
   padding: auto;
 }
+.page-header .container {
+  padding: 24px 0px;
+  align-items: center;
+  display: flex;
+  background-color: #fff;
+}
+.page-footer .container {
+  display: flex;
+  gap: 70px;
+}
