@@ -2,14 +2,14 @@
   width: 1200px;
   margin: auto;
   padding: auto;
-}
-.page-header .container {
-  padding: 24px 0px;
-  align-items: center;
-  display: flex;
-  background-color: #fff;
-}
-.page-footer .container {
-  display: flex;
-  gap: 70px;
+  .page-header & {
+    padding: 24px 0px;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+  }
+  .page-footer & {
+    display: flex;
+    gap: 70px;
+  }
 }
