@@ -103,9 +103,7 @@ main {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav__link:focus,
-.nav__link:hover {
+.nav__link:focus, .nav__link:hover {
   text-decoration: none;
   color: var(--light-blue);
   font-style: normal;
@@ -361,17 +359,13 @@ address {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.ourclient__card:hover,
-.ourclient__card:focus {
+.ourclient__card:hover, .ourclient__card:focus {
   width: 170px;
   height: 92px;
   border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
-
-.ourclient__card:hover .ourclient__logo,
-.ourclient__card:focus .ourclient__logo {
+.ourclient__card:hover .ourclient__logo, .ourclient__card:focus .ourclient__logo {
   fill: var(--light-blue);
 }
 

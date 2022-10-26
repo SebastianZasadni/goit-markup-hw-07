@@ -14,18 +14,19 @@
   align-items: center;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--light-blue);
+    border-radius: 4px;
+  }
+  &:hover .ourclient__logo,
+  &:focus .ourclient__logo {
+    fill: var(--light-blue);
+  }
 }
-.ourclient__card:hover,
-.ourclient__card:focus {
-  width: 170px;
-  height: 92px;
-  border: 1px solid var(--light-blue);
-  border-radius: 4px;
-}
-.ourclient__card:hover .ourclient__logo,
-.ourclient__card:focus .ourclient__logo {
-  fill: var(--light-blue);
-}
+
 .ourclient__logo {
   display: inline-block;
   width: 106px;

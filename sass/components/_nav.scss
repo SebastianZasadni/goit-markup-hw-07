@@ -16,16 +16,17 @@
   color: var(--black);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: var(--light-blue);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
-.nav__link:focus,
-.nav__link:hover {
-  text-decoration: none;
-  color: var(--light-blue);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
+
 .nav__link--mainsite::after,
 .nav__link--portfoliosite::after {
   display: flex;
