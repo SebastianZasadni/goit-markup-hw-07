@@ -401,9 +401,7 @@ address {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfolio-buttons__button:hover,
-.portfolio-buttons__button:focus {
+.portfolio-buttons__button:hover, .portfolio-buttons__button:focus {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
@@ -459,18 +457,14 @@ address {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.projects__card:hover .projects__describe,
-.projects__card:focus .projects__describe {
+.projects__card:hover .projects__describe, .projects__card:focus .projects__describe {
   opacity: 0.9;
   height: 294px;
   top: 0px;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.projects__card:hover,
-.projects__card:focus {
+.projects__card:hover, .projects__card:focus {
   border-bottom: 1px solid #eeeeee;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
