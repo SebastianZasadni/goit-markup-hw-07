@@ -6,11 +6,11 @@
     url("../images/background-orderbox.jpg") no-repeat;
   background-size: cover;
   max-width: 1600px;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .section-main__heading {
   margin: 0px;
-  padding-top: 114px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -19,7 +19,5 @@
   letter-spacing: 0.06em;
 }
 .button--section-main {
-  padding: 0px;
   margin-top: 30px;
-  margin-bottom: 210px;
 }
