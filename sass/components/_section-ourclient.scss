@@ -1,11 +1,12 @@
-.ourclient {
-  gap: 30px;
+.section-ourclient__list {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
-.ourclient__card {
-  width: 170px;
+.section-ourclient__item {
+  flex-basis: calc((100% - 150px) / 6);
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;

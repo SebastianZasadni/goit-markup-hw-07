@@ -227,14 +227,19 @@ address {
 }
 
 .section-lorem__list {
-  list-style: none;
+  list-style-type: none;
   display: flex;
   padding: 0px;
+  margin: 0px;
   justify-content: space-between;
 }
 
+.section-lorem__item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .section-lorem__card {
-  width: 270px;
+  width: 100%;
   height: 120px;
   border: 0px;
   background: #f5f4fa;
@@ -280,16 +285,20 @@ address {
   padding-bottom: 50px;
 }
 
-.ourwork {
+.section-ourwork__list {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.ourwork__card {
+.section-ourwork__item {
   position: relative;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
-.ourwork__describe {
+.section-ourwork__describe {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -302,20 +311,28 @@ address {
   align-items: center;
   top: 210px;
   display: flex;
-  width: 370px;
+  width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
 
-.ourteam {
-  display: flex;
-  justify-content: space-between;
+.section-ourteam {
+  background-color: #f5f4fa;
 }
 
-.ourteam__card {
+.section-ourteam__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-ourteam__item {
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .ourteam__name {
@@ -337,19 +354,16 @@ address {
   margin: 0px;
 }
 
-.section-ourteam {
-  background-color: #f5f4fa;
-}
-
-.ourclient {
-  gap: 30px;
+.section-ourclient__list {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.ourclient__card {
-  width: 170px;
+.section-ourclient__item {
+  flex-basis: calc((100% - 150px) / 6);
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -359,13 +373,13 @@ address {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.ourclient__card:hover, .ourclient__card:focus {
+.section-ourclient__item:hover, .section-ourclient__item:focus {
   width: 170px;
   height: 92px;
   border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
-.ourclient__card:hover .ourclient__logo, .ourclient__card:focus .ourclient__logo {
+.section-ourclient__item:hover .ourclient__logo, .section-ourclient__item:focus .ourclient__logo {
   fill: var(--light-blue);
 }
 
