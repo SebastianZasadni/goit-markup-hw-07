@@ -789,7 +789,6 @@ address {
 
 .newsletter__input {
   width: 358px;
-  height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -801,7 +800,6 @@ address {
 .newsletter__button {
   letter-spacing: 0.06em;
   margin: 0;
-  height: 50px;
   display: flex;
   justify-content: space-between;
   gap: 24px;
