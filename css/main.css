@@ -22,9 +22,10 @@ body {
 }
 
 .container {
-  width: 1200px;
-  margin: auto;
-  padding: auto;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .page-header .container {
   padding: 24px 0px;
