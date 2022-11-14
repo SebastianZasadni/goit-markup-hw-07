@@ -783,7 +783,7 @@ address {
   padding-top: 20px;
   display: flex;
   justify-content: left;
-  gap: 12px;
+  gap: 26px;
 }
 
 .newsletter__input {
@@ -807,7 +807,7 @@ address {
 
 .newsletter__icon-send {
   position: absolute;
-  top: 10px;
+  top: 13px;
   right: 28px;
   display: inline-block;
   width: 24px;
