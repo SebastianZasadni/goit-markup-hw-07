@@ -802,7 +802,7 @@ address {
   letter-spacing: 0.06em;
   position: relative;
   margin: 0;
-  height: 100%;
+  width: 200px;
 }
 
 .newsletter__icon-send {
